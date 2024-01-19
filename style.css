@@ -1,0 +1,384 @@
+body,
+main{
+    margin:0;
+    padding:0;
+}
+header,
+ul,
+nav{
+    display: flex;
+}
+nav{
+    margin-top:15px;
+    margin-left: 600px;
+    width: 770px;
+}
+ul{
+    gap: 0px 30px;
+    list-style-type: none;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+li:hover{
+    cursor: pointer;
+    transition:0.6s;
+    color:rgb(0, 157, 255);
+}
+li:not(:hover){
+    transition:0.6s;
+    color:black;
+}
+.container-header-slider{
+    display: block;
+    height: 600px;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-left: 90px;
+    margin-top: -30px;
+}
+.title-slider{
+    font-size: 50px;
+    color: rgb(1, 3, 52);
+}
+.box-slider{
+    text-align: center;
+}
+.line{
+    display: block;
+    margin-inline:auto;
+    margin-top: -20px;
+    width:50px;
+    height: 1px;
+    background-color: aqua;
+}
+.text-slider{
+    display: block;
+    width:600px;
+    font-size: 19px;
+    margin-inline: auto;
+    margin-top:31px;
+}               
+.btn{
+    background-color: rgba(28,0,0,0);
+    padding:16px;
+    margin-top:23px;
+    border:2px solid aqua;
+    border-radius: 5px;
+    color:aqua;
+}
+.btn:hover,
+.btn2:hover,
+.btn3:hover{
+    cursor: pointer;
+    transition:.6s;
+    background-color: rgba(29,0,0,29);
+}
+.btn:not(:hover),
+.btn2:not(:hover),
+.btn3:not(:hover){
+    transition:.6s;
+    background-color: rgba(28,0,0,0);
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+    width: 100px;
+    margin-inline:auto;
+    margin-top:100px;
+}
+.pagination-elemnt, .pagination-elemnt1{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border:2px solid aqua;
+    border-radius: 16px;
+}
+.pagination-elemnt1{
+    background-color: aqua;
+}
+.box-grid{
+    display: grid;
+    grid-template-columns: repeat(2 , 500px);
+    justify-content: center;
+    margin-top: 105px;
+    height: 400px;
+}
+.big-logo{
+    width:300px;
+    height: 300px;
+}
+.box-content{
+
+}
+.box-description{
+    display: grid;
+    grid-template-columns: 400px;
+}
+.btn2{
+    background-color: rgba(28,0,0,0);
+    padding:16px;
+    margin-top:23px;
+    border:2px solid aqua;
+    border-radius: 5px;
+    width: 160px;
+    color:aqua;
+}
+.box-button{
+    display: block;
+    position: relative;
+    height: 400px;
+    background-image: url("https://oir.mobi/uploads/posts/2021-06/1622801956_32-oir_mobi-p-fioletovii-les-priroda-krasivo-foto-36.jpg");
+}
+.btn-start{
+    position: absolute;
+    top:40%;
+    left: 45%;
+    width: 110px;
+    height: 110px;
+}
+.btn-start:hover{
+    cursor: pointer;
+    transition:0.6s;
+    scale: 1.1;
+    filter: invert(31%) sepia(78%) saturate(11%) hue-rotate(190deg) brightness(107%) contrast(106%); /***изменение цвета картинки***/
+}
+.btn-start:not(:hover){
+    transition:0.6s;
+}
+.title-play{
+    position: absolute;
+    top:70%;
+    left: 42.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-grid-two{
+    display: grid;
+    height: 700px;
+    text-align: center;
+}
+.description-grid-two-2{
+    display:grid;
+    grid-template-columns: repeat(3, 300px);
+    margin-inline: auto;
+}
+.line-two{
+    display: block;
+    margin-inline:auto;
+    margin-top: 33px;
+    width:50px;
+    height: 2px;
+    background-color: aqua;
+}
+.icon-1,.icon-2,.icon-3,.icon-4,.icon-5,.icon-6{
+    width: 60px;
+    height: 60px;
+}
+.grid-element-one,.grid-element-two,.grid-element-three{
+    border-bottom: 1px solid aqua;
+}
+.grid-element-one,.grid-element-two,.grid-element-four,.grid-element-five{
+    border-right: 1px solid aqua;
+}
+.grid-element-one,.grid-element-two,.grid-element-four,.grid-element-five,.grid-element-six,.grid-element-three{
+    padding:16px;
+}
+.box-card{
+    display: grid;
+    grid-template-columns: repeat(4, 266px);
+    padding-top:30px;
+    gap:0px 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top:29px;
+    height: 600px;
+    background-image: url("https://oir.mobi/uploads/posts/2021-06/1622801956_32-oir_mobi-p-fioletovii-les-priroda-krasivo-foto-36.jpg");
+}
+.image-one,.image-two,.image-three,.image-four{
+    height: 266px;
+    width: 266px;
+}
+.photo-one,.photo-two,.photo-three,.photo-four{
+    height: 350px;
+    width: 266px;
+    border: 1px solid antiquewhite;
+}
+.section-hard{
+    position: relative;
+}
+.title-description{
+    position: absolute;
+    top:35px;
+    left:38%;
+}  
+.btn3{
+    position: absolute;
+    top:88%;
+    left:46%;
+    background-color: rgba(28,0,0,0);
+    padding:16px;
+    margin-top:23px;
+    border:2px solid aqua;
+    border-radius: 5px;
+    color:aqua;
+}  
+.slogan{
+    position: absolute;
+    top:83%;
+    left:40%;
+    font-family: Arial, Helvetica, sans-serif;
+}       
+.box-grid-three{
+    display: block;
+    height: 700px;
+    width: 100%;
+}  
+.title-grid-three{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:63px;
+}
+.option{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+
+.blocks{
+    position: relative;
+    display: grid;
+    margin-top:63px;
+    gap: 10px 20px;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(2, 200px);
+    justify-content: center;
+}
+.bk{
+    background-color: blue;
+}
+.btn4{
+    position: absolute;
+    left:46%;
+    background-color: rgba(28,0,0,0);    
+    padding:16px;
+    margin-top:23px;
+    border:2px solid aqua;
+    border-radius: 5px;
+    color:aqua;
+}
+.btn4:hover{
+    cursor: pointer;
+    transition:0.6s;
+    scale: 1.1;
+    background-color: black;
+}
+.btn4:not(:hover){
+    transition:0.6s;
+}
+.section-one-more-slider{
+    position: relative;
+    display: block;
+    height: 600px;
+    width: 100%;
+    margin-top: 1366px;
+    background-image: url("https://oir.mobi/uploads/posts/2021-06/1622801956_32-oir_mobi-p-fioletovii-les-priroda-krasivo-foto-36.jpg");
+    text-align: center;
+}
+.text-slider-sec{
+    position: absolute;
+    width: 903px;
+    font-size: 19px;
+    text-align: center;
+    top:10%;
+    left: 20%;
+}
+.des{
+    position: absolute;
+    top:50%;
+    left:43%;
+}
+.box-balls{
+    display: grid;
+    gap:10px 20px;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(1,100px);
+    position: absolute;
+    top:73%;
+    left:31%;
+}
+.ball{
+    background-color: aqua;
+    border-radius: 50px;
+    transition:0.6s;
+}
+.ball:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+.ball:not(:hover){
+    scale: 1;
+}
+.container-form-company{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: space-around;
+    margin-top: 105px;
+    height: 503px;
+}
+.box-form{
+    display: grid;
+    gap: 20px 0px;
+    grid-template-columns: repeat(1, 400px);
+    grid-template-rows: repeat(3, 30px);
+    grid-auto-rows:200px;
+}
+.name, .email, .subject{
+    padding: 20px 10px;
+    border:2px solid rgb(185, 184, 184);
+}
+.text-area{
+    padding:10px;
+    border:2px solid rgb(185, 184, 184);
+    resize:none;
+}
+.button-form{
+    border:2px solid aqua;
+    border-radius: 5px;
+    color:aqua;
+    width: 166px;
+    height: 40px;
+    margin: 0 auto;
+}
+.companys{
+    display: grid;
+    gap:20px 60px;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(5, 50px);
+}
+.company{
+    border-radius: 60px;
+    background-color: black;
+}
+.container-footer{          
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+.footer{
+    display: grid;
+    gap:10px 50px;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url("https://oir.mobi/uploads/posts/2021-06/1622801956_32-oir_mobi-p-fioletovii-les-priroda-krasivo-foto-36.jpg");
+}
+.block-footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
